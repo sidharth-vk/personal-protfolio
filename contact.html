@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            />
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+            />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+        tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+             },
+           }
+         }
+        }
+        </script>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="flex h-full flex-col bg-zinc-50 dark:bg-black">
+        <div class="fixed inset-0 flex justify-center sm:px-8">
+            <div class="flex w-full max-w-7xl lg:px-8">
+                <div class="w-full bg-white ring-1 ring-zinc-100
+                    dark:bg-zinc-900 dark:ring-zinc-300/20">
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <header class="pointer-events-none relative z-50 flex flex-col"
+                style="height:var(--header-height);margin-bottom:var(--header-mb)">
+                <div class="top-0 z-10 h-16 pt-6"
+                    style="position:var(--header-position)">
+                    <div class="sm:px-8 top-[var(--header-top,theme(spacing.6))]
+                        w-full" style="position:var(--header-inner-position)">
+                        <div class="mx-auto max-w-7xl lg:px-8">
+                            <div class="relative px-4 sm:px-8 lg:px-12">
+                                <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                                    <div class="relative flex gap-4">
+                                        <div class="flex flex-1">
+                                            <div class="h-10 w-10 rounded-full
+                                                bg-white/90 p-0.5 shadow-lg
+                                                shadow-zinc-800/5 ring-1
+                                                ring-zinc-900/5 backdrop-blur
+                                                dark:bg-zinc-800/90
+                                                dark:ring-white/10">
+                                                <a aria-label="Home"
+                                                    class="pointer-events-auto"
+                                                    href="/">
+                                                    <img alt="" sizes="2.25rem"
+                                                        src="/sidharth.png.jpg"
+                                                        width="512" height="512"
+                                                        decoding="async"
+                                                        data-nimg="future"
+                                                        class="rounded-full
+                                                        bg-zinc-100 object-cover
+                                                        dark:bg-zinc-800 h-9
+                                                        w-9"
+                                                        style="color:transparent">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-1 justify-end
+                                            md:justify-center">
+                                            <div class="pointer-events-auto
+                                                md:hidden"
+                                                data-headlessui-state="">
+                                                <button class="group flex
+                                                    items-center rounded-full
+                                                    bg-white/90 px-4 py-2
+                                                    text-sm font-medium
+                                                    text-zinc-800 shadow-lg
+                                                    shadow-zinc-800/5 ring-1
+                                                    ring-zinc-900/5
+                                                    backdrop-blur
+                                                    dark:bg-zinc-800/90
+                                                    dark:text-zinc-200
+                                                    dark:ring-white/10
+                                                    dark:hover:ring-white/20"
+                                                    id="headlessui-popover-button-:Rqb6:"
+                                                    type="button"
+                                                    aria-expanded="false"
+                                                    data-headlessui-state="">Menu<svg
+                                                        viewBox="0 0 8 6"
+                                                        aria-hidden="true"
+                                                        class="ml-3 h-auto w-2
+                                                        stroke-zinc-500
+                                                        group-hover:stroke-zinc-700
+                                                        dark:group-hover:stroke-zinc-400"><path
+                                                            d="M1.75 1.75 4
+                                                            4.25l2.25-2.5"
+                                                            fill="none"
+                                                            stroke-width="1.5"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"></path></svg>
+                                                </button>
+                                            </div>
+                                            <nav class="pointer-events-auto
+                                                hidden md:block">
+                                                <ul class="flex rounded-full
+                                                    bg-white/90 px-3 text-sm
+                                                    font-medium text-zinc-800
+                                                    shadow-lg shadow-zinc-800/5
+                                                    ring-1 ring-zinc-900/5
+                                                    backdrop-blur
+                                                    dark:bg-zinc-800/90
+                                                    dark:text-zinc-200
+                                                    dark:ring-white/10">
+                                                    <li>
+                                                        <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                                                            href="about.html">About</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="relative block
+                                                        px-3 py-2 transition
+                                                        hover:text-teal-500
+                                                        dark:hover:text-teal-400"
+                                                            href="project.html">Projects
+                                                             </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                                                            href="contact.html">Contact<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="flex justify-end md:flex-1">
+                                            <div class="pointer-events-auto">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+            <main>
+                
+                <div class="sm:px-8 mt-16 sm:mt-32">
+                    <div class="mx-auto max-w-7xl lg:px-8">
+                        <div class="relative px-4 sm:px-8 lg:px-12">
+                            <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                                <section class="text-gray-400 body-font relative">
+                                    <div class="container px-5 py-24 mx-auto">
+                                      <div class="flex flex-col text-center w-full mb-12">
+                                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
+                                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">He said he would <em class="font-bold">contact us </em>and he didn't.</p>
+                                      </div>
+                                      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                                        <div class="flex flex-wrap -m-2">
+                                          <div class="p-2 w-1/2">
+                                            <div class="relative">
+                                              <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+                                              <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                            </div>
+                                          </div>
+                                          <div class="p-2 w-1/2">
+                                            <div class="relative">
+                                              <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+                                              <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                            </div>
+                                          </div>
+                                          <div class="p-2 w-full">
+                                            <div class="relative">
+                                              <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+                                              <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                            </div>
+                                          </div>
+                                          <div class="p-2 w-full">
+                                            <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                                          </div>
+                                          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+                                            <a class="text-indigo-400">sidharthd717@gmail.com</a>
+                                            <p class="leading-normal my-5">Contact :
+                                              <br>9778165158
+                                            </p>
+                                            <span class="inline-flex">
+                                              <a class="text-gray-500">
+                                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                                </svg>
+                                              </a>
+                                              <a class="ml-4 text-gray-500">
+                                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                                                </svg>
+                                              </a>
+                                              <a class="ml-4 text-gray-500">
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                                </svg>
+                                              </a>
+                                              <a class="ml-4 text-gray-500">
+                                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                                </svg>
+                                              </a>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                
+                                
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="mt-32">
+            <div class="sm:px-8">
+                <div class="mx-auto max-w-7xl lg:px-8">
+                    <div class="border-t border-zinc-100 pt-10 pb-16
+                        dark:border-zinc-700/40">
+                        <div class="relative px-4 sm:px-8 lg:px-12">
+                            <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                                <div class="flex flex-col items-center
+                                    justify-between gap-6 sm:flex-row">
+                                    <div class="flex gap-6 text-sm font-medium
+                                        text-zinc-800 dark:text-zinc-200">
+                                        <a class="transition hover:text-teal-500
+                                            dark:hover:text-teal-400"
+                                            href="about.html">About</a>
+                                        <a class="transition hover:text-teal-500
+                                            dark:hover:text-teal-400"
+                                            href="project.html">Projects</a>
+                                        <a class="transition hover:text-teal-500
+                                            dark:hover:text-teal-400"
+                                            href="contact.html">Contact</a>
+                                       
+                                    </div>
+                                    <p class="text-sm text-zinc-400
+                                        dark:text-zinc-500">© <!-- -->2022<!-- -->
+                                        WEBDESTIR. All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    </body>
+</html>

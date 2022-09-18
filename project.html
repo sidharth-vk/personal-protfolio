@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            />
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+            />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+        tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+             },
+           }
+         }
+        }
+        </script>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="flex h-full flex-col bg-zinc-50 dark:bg-black">
+        <div class="fixed inset-0 flex justify-center sm:px-8">
+            <div class="flex w-full max-w-7xl lg:px-8">
+                <div class="w-full bg-white ring-1 ring-zinc-100
+                    dark:bg-zinc-900 dark:ring-zinc-300/20">
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <header class="pointer-events-none relative z-50 flex flex-col"
+                style="height:var(--header-height);margin-bottom:var(--header-mb)">
+                <div class="top-0 z-10 h-16 pt-6"
+                    style="position:var(--header-position)">
+                    <div class="sm:px-8 top-[var(--header-top,theme(spacing.6))]
+                        w-full" style="position:var(--header-inner-position)">
+                        <div class="mx-auto max-w-7xl lg:px-8">
+                            <div class="relative px-4 sm:px-8 lg:px-12">
+                                <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                                    <div class="relative flex gap-4">
+                                        <div class="flex flex-1">
+                                            <div class="h-10 w-10 rounded-full
+                                                bg-white/90 p-0.5 shadow-lg
+                                                shadow-zinc-800/5 ring-1
+                                                ring-zinc-900/5 backdrop-blur
+                                                dark:bg-zinc-800/90
+                                                dark:ring-white/10">
+                                                <a aria-label="Home"
+                                                    class="pointer-events-auto"
+                                                    href="/">
+                                                    <img alt="" sizes="2.25rem"
+                                                        src="/sidharth.png.jpg"
+                                                        width="512" height="512"
+                                                        decoding="async"
+                                                        data-nimg="future"
+                                                        class="rounded-full
+                                                        bg-zinc-100 object-cover
+                                                        dark:bg-zinc-800 h-9
+                                                        w-9"
+                                                        style="color:transparent">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-1 justify-end
+                                            md:justify-center">
+                                            <div class="pointer-events-auto
+                                                md:hidden"
+                                                data-headlessui-state="">
+                                                <button class="group flex
+                                                    items-center rounded-full
+                                                    bg-white/90 px-4 py-2
+                                                    text-sm font-medium
+                                                    text-zinc-800 shadow-lg
+                                                    shadow-zinc-800/5 ring-1
+                                                    ring-zinc-900/5
+                                                    backdrop-blur
+                                                    dark:bg-zinc-800/90
+                                                    dark:text-zinc-200
+                                                    dark:ring-white/10
+                                                    dark:hover:ring-white/20"
+                                                    id="headlessui-popover-button-:Rqb6:"
+                                                    type="button"
+                                                    aria-expanded="false"
+                                                    data-headlessui-state="">Menu<svg
+                                                        viewBox="0 0 8 6"
+                                                        aria-hidden="true"
+                                                        class="ml-3 h-auto w-2
+                                                        stroke-zinc-500
+                                                        group-hover:stroke-zinc-700
+                                                        dark:group-hover:stroke-zinc-400"><path
+                                                            d="M1.75 1.75 4
+                                                            4.25l2.25-2.5"
+                                                            fill="none"
+                                                            stroke-width="1.5"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"></path></svg>
+                                                </button>
+                                            </div>
+                                            <nav class="pointer-events-auto
+                                                hidden md:block">
+                                                <ul class="flex rounded-full
+                                                    bg-white/90 px-3 text-sm
+                                                    font-medium text-zinc-800
+                                                    shadow-lg shadow-zinc-800/5
+                                                    ring-1 ring-zinc-900/5
+                                                    backdrop-blur
+                                                    dark:bg-zinc-800/90
+                                                    dark:text-zinc-200
+                                                    dark:ring-white/10">
+                                                    <li>
+                                                        <a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                                                            href="about.html">About</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400"
+                                                            href="project.html">Projects
+                                                            <span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a class="relative block
+                                                            px-3 py-2 transition
+                                                            hover:text-teal-500
+                                                            dark:hover:text-teal-400"
+                                                            href="contact.html">Contact</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="flex justify-end md:flex-1">
+                                            <div class="pointer-events-auto">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+            <main>
+                
+                <div class="sm:px-8 mt-16 sm:mt-32">
+                    <div class="mx-auto max-w-7xl lg:px-8">
+                        <div class="relative px-4 sm:px-8 lg:px-12">
+                            <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                                <header class="max-w-2xl pb-5">
+                                    <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Things I’ve made trying to put my dent in the universe.</h1>
+                                    <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.</p>
+                                </header>
+                                <hr/>
+                                <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl flex" style="justify-content: center; padding-top: 2rem;">Projects</h1>
+                                <section class="text-gray-400  body-font">
+                                    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+                                      <div class="flex flex-wrap -m-4">
+                                        <div class="p-4 lg:w-1/2 md:w-full">
+                                          <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
+                                            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
+                                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                              </svg>
+                                            </div>
+                                            <div class="flex-grow">
+                                              <h2 class="text-white text-lg title-font font-medium mb-3">Real Estate Project</h2>
+                                              <p class="leading-relaxed text-base">This is a sample Django Project created for Real Estate.
+                                              </p>
+                                              <a href="https://github.com/sidharth-vk/Real-Estate-using-django.git" class="mt-3 text-indigo-400 inline-flex items-center">Learn More
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                </svg>
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="p-4 lg:w-1/2 md:w-full">
+                                          <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
+                                            <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                                  </svg>
+                                            </div>
+                                            <div class="flex-grow">
+                                              <h2 class="text-white text-lg title-font font-medium mb-3">Python Calculator</h2>
+                                              <p class="leading-relaxed text-base">This is a Sample Calculator Using Tkinter in python</p>
+                                              <a href="https://github.com/sidharth-vk/calculator-using-tkinter-python.git" class="mt-3 text-indigo-400 inline-flex items-center">Learn More
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                </svg>
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="mt-32">
+            <div class="sm:px-8">
+                <div class="mx-auto max-w-7xl lg:px-8">
+                    <div class="border-t border-zinc-100 pt-10 pb-16
+                        dark:border-zinc-700/40">
+                        <div class="relative px-4 sm:px-8 lg:px-12">
+                            <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                                <div class="flex flex-col items-center
+                                    justify-between gap-6 sm:flex-row">
+                                    <div class="flex gap-6 text-sm font-medium
+                                        text-zinc-800 dark:text-zinc-200">
+                                        <a class="transition hover:text-teal-500
+                                            dark:hover:text-teal-400"
+                                            href="about.html">About</a>
+                                        <a class="transition hover:text-teal-500
+                                            dark:hover:text-teal-400"
+                                            href="project.html">Projects</a>
+                                        <a class="transition hover:text-teal-500
+                                            dark:hover:text-teal-400"
+                                            href="contact.html">Contact</a>
+                                        
+                                    </div>
+                                    <p class="text-sm text-zinc-400
+                                        dark:text-zinc-500">© <!-- -->2022<!-- -->
+                                        WEBDESTIR. All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    </body>
+</html>
